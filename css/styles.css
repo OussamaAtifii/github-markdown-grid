@@ -1,0 +1,73 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1vw;
+}
+
+header {
+    text-align: center;
+    padding: 1vw;
+}
+
+main {
+    padding: 2vw;
+}
+
+nav li {
+    list-style: none;
+    margin-bottom: .5vw;
+}
+
+main section {
+    display: grid;
+    gap: 1%;
+    padding-bottom: 1vw;
+}
+
+/* Estilos para la primera fila de elementos */
+.primera-seccion {
+    grid-template-columns: 10% 60% 29%;
+}
+
+.primera-seccion figure:nth-child(2) img {
+    width: 35%;
+}
+
+figure {
+    border: 1px solid #000;
+    border-radius: .3vw;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+figure img {
+    width: 50%;
+}
+
+/* Estilos para la segunda fila de elementos */
+.segunda-seccion {
+    grid-template-columns: 10% 30% 30% 28%;
+}
+
+.segunda-seccion figure:nth-child(1) {
+    border: 0;
+}
+
+/* Estilos para el footer */
+footer {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    align-items: center;
+    justify-items: center;
+    padding: 1vw 2vw;
+}
+
+footer .redes i {
+    font-size: 1.4vw;
+    margin-left: .5vw;
+}
